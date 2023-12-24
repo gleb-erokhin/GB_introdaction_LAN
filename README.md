@@ -1,6 +1,6 @@
 # GB_introdaction_LAN
 
-#Урок 4. Основы компьютерных сетей. Сетевой уровень. Протоколы маршрутизации. VLAN.
+# Урок 4. Основы компьютерных сетей. Сетевой уровень. Протоколы маршрутизации. VLAN.
 1. Работа над сборкой сети
 2. Выявление ошибок
 3. Настройка GW на коммутаторах и оконечных устройствах
@@ -19,14 +19,14 @@
 
 ** - для коммутатора **sw2** необходимо выставить оба порта в **trunk** и добавить все **VLAN** из коммутатора **sw1** иначе сервер будет недоступен. 
 
-Все линки настроены
+- [x] Все линки настроены
 ![OSPF настроен](https://github.com/gleb-erokhin/GB_introdaction_LAN/blob/4th/all_ok.jpg)
 
 - [x] Таблица маршрутизации **OSPF** на роутере **r1**
-![OSPF настроен] (https://github.com/gleb-erokhin/GB_introdaction_LAN/blob/4th/r1.jpg)
+![OSPF настроен](https://github.com/gleb-erokhin/GB_introdaction_LAN/blob/4th/r1.jpg)
 
 - [x] Работа команты tracert до сервера, через роутер **r2** через сети 172.20.0.0 и 172.18.0.0
-![tracert to server 1] (https://github.com/gleb-erokhin/GB_introdaction_LAN/blob/4th/tracert-serv01.jpg)
+![tracert to server 1](https://github.com/gleb-erokhin/GB_introdaction_LAN/blob/4th/tracert-serv01.jpg)
 
 - [x] Работа команты tracert до сервера, через роутер **r5** после обрыва сети 172.20.0.0
-![tracert to server 2] (https://github.com/gleb-erokhin/GB_introdaction_LAN/blob/4th/tracert-serv02.jpg)
+![tracert to server 2](https://github.com/gleb-erokhin/GB_introdaction_LAN/blob/4th/tracert-serv02.jpg)
