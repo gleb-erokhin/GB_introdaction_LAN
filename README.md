@@ -19,7 +19,7 @@
 ** - для коммутатора **sw2** необходимо выставить оба порта в **trunk** и добавить все **VLAN** из коммутатора **sw1** иначе сервер будет недоступен. 
 
 - [x] Все линки настроены
-![Все линки настроены] (https://github.com/gleb-erokhin/GB_introdaction_LAN/blob/4th/all_ok.jpg)
+(https://github.com/gleb-erokhin/GB_introdaction_LAN/blob/4th/all_ok.jpg)
 
 - [x] Таблица маршрутизации **OSPF** на роутере **r1**
 ![OSPF настроен] (https://github.com/gleb-erokhin/GB_introdaction_LAN/blob/4th/r1.jpg)
