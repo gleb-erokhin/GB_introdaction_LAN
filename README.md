@@ -59,6 +59,7 @@ ss -tulpan | grep ESTAB
 <details>
     <summary>Описание команд bash</summary>
 ss -tulpan | grep LIST - фильтруем по регулярным выражениям только сокеты listen
+    
 ss -tulpan | grep ESTAB- фильтруем по регулярным выражениям только сокеты established
 
 tu - порты TCP UDP
