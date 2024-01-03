@@ -1,6 +1,6 @@
 # GB_introdaction_LAN
 
-# Урок 6. NAT. GRE.
+# Урок 7. NAT. GRE.
 
 Работа с программой CPT
 Настройка GRE, NAT, PAT
