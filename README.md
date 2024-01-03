@@ -31,8 +31,7 @@
 
 3. [x] Настроим PAT для компьютеров Office3
 
-'''
-Настраиваем router1 -> config t
+'''Настраиваем router1 -> config t
 
 заходим в интерфейс -> interface ge0/0/0, укажем что это ip nat inside
 
