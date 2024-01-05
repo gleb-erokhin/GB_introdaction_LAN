@@ -32,6 +32,7 @@
 3. [x] Настроим PAT для компьютеров Office3
 
 ```
+Router1  R ID - 16
 Настраиваем router1 -> config
 заходим в интерфейс -> interface ge0/0/0, укажем что это ip nat inside
 заходим в интерфейс -> interface ge0/0/1, укажем что это ip nat outside
@@ -50,6 +51,7 @@ ip nat inside source list NET_10 interface ge0/0/1 overload
 для того чтобы заходить на сервера по публичному адресу необходимо настроить статический NAT
 
 ```
+Router3  R ID - 14
 заходим в интерфейс -> interface ge0/0/0, укажем что это ip nat inside
 заходим в интерфейс -> interface ge0/0/1, укажем что это ip nat outside
 далее настраиваем статический маршрут NAT 
