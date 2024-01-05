@@ -54,7 +54,7 @@ ip nat inside source list NET_10 interface ge0/0/1 overload
 заходим в интерфейс -> interface ge0/0/1, укажем что это ip nat outside
 далее настраиваем статический маршрут NAT 
 ip nat inside source static tcp 10.0.0.2 80 6.6.6.1 80
-ip nat inside source static tcp 10.0.0.2 80 6.6.6.1 80
+ip nat inside source static tcp 10.0.0.3 443 6.6.6.1 443
 ```
 
 также перенастроем сервера, на одном оставим HTTP а на ругом HTTPS, откорректируем страницы для вывода.
